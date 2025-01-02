@@ -3,17 +3,18 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    margin: 0;
-    padding: 0;
+    margin: 0;  /* Kenar boşlukları */
+    padding: 0; /* İç boşluklar */
 }
 
 header {
     background: #3333338d;
     color: #fff;
     padding: 10px 0;
-    text-align: center;
+    text-align: center; /* Metin hizalaması */
 }
-body {
+ /* Arka plan resmi ayarları */
+body {  
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -25,13 +26,13 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
     margin: 20px;
 }
-nav {
+nav { /* Menü stilini ayarlar */
     position: sticky; 
     top: 0; 
     z-index: 1000;
 }
 
-nav ul {
+nav ul { /* Menüdeki liste stilini ayarlar */
     list-style: none;
     padding: 0;
     text-align: center;
@@ -39,16 +40,16 @@ nav ul {
     margin: 0; 
 }
 
-nav ul li {
+nav ul li { /* Menüdeki liste elemanlarının stilini ayarlar */
     display: inline;
     margin: 0 15px;
 }
 
-nav ul li a {
+nav ul li a { /* Menüdeki linklerin stilini ayarlar */
     color: #fff;
     text-decoration: none;
 }
-section {
+section { 
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.8); /* Beyaz arka plan ve %80 opaklık */
     margin: 20px;
@@ -56,7 +57,7 @@ section {
 }
 
 
-section h2 {
+section h2 { 
     font-size: 24px;
     color: #333;
     margin-top: 20px;
@@ -68,31 +69,52 @@ section p {
     margin-bottom: 20px;
 }
 
-section ul {
+section ul { /* Resimlerin listesi */
     list-style-type: none;
     padding: 0;
     display: flex;
     justify-content: space-around; /* Resimler arasında boşluk bırakmak için */
 }
 
-section ul li {
+section ul li { /* Resimlerin altındaki metinler */
     margin-bottom: 10px;
     margin: 10px;
 }
 
-section ul li a {
+section ul li a { /* Resimlerin altındaki metinlerin linkleri */
     text-decoration: none;
     color: #007BFF;
 }
 
-section ul li a:hover {
+section ul li a:hover { /* Fare üzerine gelindiğinde linklerin altını çizmek */
     text-decoration: underline;
 }
 
-main {
+main { 
     padding: 20px;
 }
 
+.espor-oyunlari {
+    display: flex; /* Esnek kutu düzeni */
+    flex-wrap: wrap;
+    justify-content: space-around; /* Boşlukları eşit dağıt */
+}
+
+.espor-oyunlari li { /* Oyun resimlerinin altındaki metinler */
+    list-style: none;
+    margin: 10px;
+}
+
+.espor-oyunlari figure { /* Oyun resimlerinin altındaki metinler */
+    margin: 0;
+    text-align: center;
+}
+
+.espor-oyunlari img { 
+    width: 150px;
+    height: auto;
+}
+/* Alt bilgi stili */
 footer {
     text-align: center;
     background: #333;

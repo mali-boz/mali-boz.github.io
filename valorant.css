@@ -6,8 +6,8 @@ body {
     background-size: cover;
 }
 header {
-    background-color: #ff44007a; /* Arka plan rengini turuncu yapar */
-    color: #ffffff; /* Metin rengini beyaz yapar */
+    background-color: #ff44007a; 
+    color: #ffffff; 
 }
 
 .game-images img {
@@ -16,12 +16,12 @@ header {
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: collapse; /* Hücreler arası boşlukları kaldırır */
     margin: 20px 0;
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 1px solid #ddd; /* Tablo kenarlıkları */
 }
 
 th, td {
